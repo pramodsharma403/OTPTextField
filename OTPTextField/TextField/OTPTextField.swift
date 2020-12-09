@@ -48,7 +48,7 @@ public final class OTPTextField: BaseInputView {
     private var innerInputView: UIView?
     private var innerInputAccessoryView: UIView?
     private var charactersCount: Int {
-        return configuration.adapter.numberOfPins()
+        return 6;
     }
     private var pinViews: [PinContainer] = []
     private var text: String?
